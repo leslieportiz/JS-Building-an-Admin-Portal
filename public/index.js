@@ -4,6 +4,7 @@ async function main() {
     let books = await response.json()
 
     books.forEach(renderBook)
+
 }
 
 function renderBook(book) {
@@ -26,3 +27,5 @@ function renderBook(book) {
 }
 
 main()
+
+
